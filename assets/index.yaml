@@ -11,13 +11,32 @@ entries:
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-10-05T13:26:58.242791301Z"
+    appVersion: 0.1.1
+    created: "2023-10-05T13:32:38.593455549Z"
     description: kubecost plugin
-    digest: 87ecd73c904ccbdc5e124ea568b4293236f4c69187560b9359433e8ec98480ca
+    digest: 38b046f6e5e656cb4198b52ddd65c6ffcd9054d60efe5cee60030daf04f76423
+    name: kubecost
+    type: application
+    urls:
+    - assets/kubecost/kubecost-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.7.7'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-10-05T11:38:47.96903932Z"
+    description: kubecost plugin
+    digest: be3b1f39561a96a117d875f1dd1a845bc87896176d3da603e68234cfc58f9469
     name: kubecost
     type: application
     urls:
     - assets/kubecost/kubecost-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-05T13:26:58.241937987Z"
+generated: "2023-10-05T13:32:38.590371382Z"
