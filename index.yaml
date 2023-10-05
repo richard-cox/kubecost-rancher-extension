@@ -11,6 +11,25 @@ entries:
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
+    appVersion: 0.1.1
+    created: "2023-10-05T13:33:09.179796369Z"
+    description: kubecost plugin
+    digest: 6ab44a751d1674e544f53a7f0be5ae1741c752efd01f80f7270b8f36578188cc
+    name: kubecost
+    type: application
+    urls:
+    - https://github.com/richard-cox/kubecost-rancher-extension/releases/download/kubecost-0.1.1/kubecost-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.7.7'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
     appVersion: 0.1.0
     created: "2023-10-05T11:38:47.96903932Z"
     description: kubecost plugin
@@ -20,4 +39,4 @@ entries:
     urls:
     - assets/kubecost/kubecost-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-05T11:38:47.966470302Z"
+generated: "2023-10-05T13:33:09.17980317Z"
