@@ -1,6 +1,6 @@
 kubecost:
   namespaceTab:
-    label: KubeCost
+    label: kubecost
     tootlip: Costs associated with this namespace
     title: Costs (last 24H)
     costs:

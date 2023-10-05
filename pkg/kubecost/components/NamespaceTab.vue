@@ -16,6 +16,9 @@ export default {
   },
 
   async fetch() {
+    // Production Note - This does not check if the cluster has kubecost installed. That should be achievable by fetching installed helm
+    // apps. This might also reveal which namespace the chart is installed to
+
     const targetNamespace = this.resource.id;
     const prefix = `/k8s/clusters/${ this.clusterId }`;
     const namespace = 'kubecost'; // Production Note - This could be any namespace the user decided to install kubecost to
