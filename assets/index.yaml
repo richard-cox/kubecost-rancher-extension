@@ -12,12 +12,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-10-05T13:24:15.50059605Z"
+    created: "2023-10-05T13:26:58.242791301Z"
     description: kubecost plugin
-    digest: 0c3136ccea309a17b695bc2cce108d05e5ddce1f3ee1930393f6ea1284c2b79a
+    digest: 87ecd73c904ccbdc5e124ea568b4293236f4c69187560b9359433e8ec98480ca
     name: kubecost
     type: application
     urls:
     - assets/kubecost/kubecost-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-05T13:24:15.496511113Z"
+generated: "2023-10-05T13:26:58.241937987Z"
