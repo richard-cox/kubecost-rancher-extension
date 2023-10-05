@@ -1,5 +1,6 @@
 import { importTypes } from '@rancher/auto-import';
-import { IPlugin } from '@shell/core/types';
+import { NAMESPACE } from '@shell/config/types';
+import { IPlugin, TabLocation } from '@shell/core/types';
 
 // Init the package
 export default function(plugin: IPlugin): void {
@@ -9,6 +10,13 @@ export default function(plugin: IPlugin): void {
   // Provide plugin metadata from package.json
   plugin.metadata = require('./package.json');
 
-  // Load a product
-  // plugin.addProduct(require('./product'));
+  // Add namespaces tab
+  plugin.addTab(
+    TabLocation.RESOURCE_DETAIL, { resource: [NAMESPACE] }, {
+      name:       'kubecost',
+      labelKey:   'kubecost.namespaceTab.label',
+      weight:     -10,
+      tooltipKey: 'kubecost.namespaceTab.tooltip',
+      component:  () => import('./components/NamespaceTab.vue')
+    });
 }

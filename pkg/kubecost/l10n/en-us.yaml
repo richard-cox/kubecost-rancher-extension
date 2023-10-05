@@ -1,0 +1,14 @@
+kubecost:
+  namespaceTab:
+    label: KubeCost
+    tootlip: Costs associated with this namespace
+    title: Costs (last 24H)
+    costs:
+      cpuCost:     CPU
+      ramCost:    RAM
+      pvCost:      GPU
+      gpuCost:     PV
+      networkCost:  LB
+      lbCost:      Network
+      totalCost:   Total
+    noCosts: Metrics not available.
