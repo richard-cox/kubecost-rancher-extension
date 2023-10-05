@@ -1,0 +1,2 @@
+(("undefined"!==typeof self?self:this)["webpackJsonpkubecost_0_1_0"]=("undefined"!==typeof self?self:this)["webpackJsonpkubecost_0_1_0"]||[]).push([[3],{"1bb6":function(t,s){const o=[{kubecost:{namespaceTab:{label:"KubeCost",tootlip:"Costs associated with this namespace",title:"Costs (last 24H)",costs:{cpuCost:"CPU",ramCost:"RAM",pvCost:"GPU",gpuCost:"PV",networkCost:"LB",lbCost:"Network",totalCost:"Total"},noCosts:"Metrics not available."}}}];t.exports=o.length<=1?o[0]:o}}]);
+//# sourceMappingURL=kubecost-0.1.0.umd.min.3.js.map
